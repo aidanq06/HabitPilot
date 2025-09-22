@@ -1,0 +1,10 @@
+# Prevent backend from being synced into iOS target bundle
+backend/
+backend/**
+
+# Never sync node modules (defense-in-depth)
+**/node_modules/**
+
+# Environment files
+**/.env
+**/.env.* 

@@ -1,0 +1,74 @@
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcscmblueprint
+
+# Build files
+build/
+DerivedData/
+*.app
+*.dSYM
+*.xcarchive
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# Logs
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.lock
+*.tmp
+*~
+
+# Dependencies
+Pods/
+*.xcframework/
+Carthage/
+node_modules/
+
+# Generated files
+*.generated.swift
+*.swiftmodule
+*.swiftdoc
+*.swiftinterface
+
+# App Store Connect
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Swift Package Manager
+.swiftpm/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+*.xctestplan

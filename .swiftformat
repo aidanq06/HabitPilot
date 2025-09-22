@@ -1,0 +1,10 @@
+--swiftversion 5.9
+--exclude Pods/
+--exclude Carthage/
+--exclude build/
+--exclude DerivedData/
+
+# Formatting rules
+--indent 4
+--maxwidth 120
+--disable blankLinesAtStartOfScope,blankLinesAtEndOfScope
